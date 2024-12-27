@@ -1,0 +1,32 @@
+name: bloc_practice
+description: "A simple Flutter project using three packages to practice Bloc state management, go_route -> for navigation and get_it for injection dependency."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  get_it: ^8.0.3
+  go_router: ^14.6.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
